@@ -11,6 +11,8 @@ This is my repo for the Web Design course.
 * [Installing](#installing-)
   * [Packages and Technologies](#packages-and-technologies)
 * [Research](#research-)
+  * [User](#user)
+  * [User Scenario](#user-scenario)
 * [How It Works](#how-it-works-️)
 * [Sources](#sources-)
   * [Honourable Mentions](#honourable-mentions)
@@ -20,6 +22,7 @@ This is my repo for the Web Design course.
 This is a list of things I want to do in this project:
 
 - [ ] .
+
 ## Description 📝
 *Here goes the description of a project.*
 
@@ -29,6 +32,10 @@ To install this application enter the following into your terminal:
 git clone https://github.com/BasPieren/web-design-1819.git
 
 cd web-design-1819
+
+npm install
+
+npm run server
 ```
 
 ### Packages and Technologies
@@ -39,13 +46,21 @@ This project makes use of the following packages and technologies:
 ## Research 🕵🏻
 Here I explain the research for this project.
 
+### User
+Larissa is blind. She uses a braille rule and a screen reader. You understand that many of the common design patterns do not work optimally for her because they are designed 100% from a visual point of view.
+
+### User Scenario
+This is my user scenario (in Dutch):
+
+> "Larissa wilt graag een vakantie boeken bij een vliegtuigmaatschappij. Ze wilt kunnen aangeven waarheen, haar vertrek en terug komst datum, vanaf welk vliegveld ze wilt vertrekken en het aantal personen. Als laatste wilt ze een vlucht kunnen kiezen. Dit moet ze met haar toetsenbord kunnen doen in samenwerking met een screenreader want Larissa is blind."
+
 ## How It Works 🛠️
 Here I explain the core features of this project.
 
 ## Sources 📚
 This is a list of all the sources I used during this project:
 
-  * None!
+  * [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/)
 
 ### Honourable Mentions
 
@@ -53,57 +68,3 @@ This is a list of all the sources I used during this project:
 
 ## Licence 🔓
 MIT © [Bas Pieren](https://github.com/BasPieren)
-
-<!-- # Web Design @cmda-minor-web 1819
-//Werken met en voor echte mensen.
-
-
-
-In het vak Web design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En zit er wel _nonsense_ in?
-
-
-
-
-
-## Leerdoelen
-- _Leren hoe je (interface) (design) (in/exclusive) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
-
-
-
-
-### Week 1
-Inclusive design en ontwerpen voor 1 mens.
-- [College over Inclusive Design](https://drive.google.com/open?id=1wGhSJ0sYZw2f7PhiyI9d12aW4nfvkt47)
-- [Les 1 - Briefing opdracht 1](https://docs.google.com/presentation/d/1-DU6Nj_N-inT4CGFh_sHZN4RA0XEVkow1qSPF14Ltog/edit?usp=sharing)
-- [Opdracht 1 - Annames testen](Opdracht1.md)
-
-
-
-#### Weekly Nerd
-Daan Rongen gaat vertellen over onderzoek, ontwerp en ontwikkeling in het afstudeerjaar. En _learnings_ over exposeren (op de Dutch Design week). En over een designers houding, want ja mensen, web dev-ies zijn ook ontwepers.  Woensdag 10 April, 16:00 in het minorlokaal.
-
-#### Lezen
-- []()
-
-
-### Week 2
-
-
-
-#### Weekly Nerd
-
-
-#### Lezen
-- []()
-
-
-### Week 3
-
-
-
-#### Weekly Nerd
-
-#### Lezen
-- []() -->
