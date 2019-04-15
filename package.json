@@ -1,0 +1,26 @@
+{
+  "name": "web-design-1819",
+  "version": "1.0.0",
+  "description": "This is my repo for the Web Design course.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BasPieren/web-design-1819.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BasPieren/web-design-1819/issues"
+  },
+  "homepage": "https://github.com/BasPieren/web-design-1819#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
+  }
+}
