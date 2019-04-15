@@ -1,4 +1,60 @@
-# Web Design @cmda-minor-web 1819
+# Web Design @cmda-minor-web · 2018-2019 ⚙️
+
+This is my repo for the Web Design course.
+
+![Real Time Web Screenshot](https://i.imgur.com/t95Kias.png)
+> Learn HTML Together chat app
+
+## Table of Contents 🗃
+* [To Do](#to-do-)
+* [Description](#description-)
+* [Installing](#installing-)
+  * [Packages and Technologies](#packages-and-technologies)
+* [Research](#research-)
+* [How It Works](#how-it-works-️)
+* [Sources](#sources-)
+  * [Honourable Mentions](#honourable-mentions)
+* [Licence](#licence-)
+
+## To Do 📌
+This is a list of things I want to do in this project:
+
+- [ ] .
+## Description 📝
+*Here goes the description of a project.*
+
+## Installing 🔍
+To install this application enter the following into your terminal:
+```
+git clone https://github.com/BasPieren/web-design-1819.git
+
+cd web-design-1819
+```
+
+### Packages and Technologies
+This project makes use of the following packages and technologies:
+
+* None!
+
+## Research 🕵🏻
+Here I explain the research for this project.
+
+## How It Works 🛠️
+Here I explain the core features of this project.
+
+## Sources 📚
+This is a list of all the sources I used during this project:
+
+  * None!
+
+### Honourable Mentions
+
+  * None!
+
+## Licence 🔓
+MIT © [Bas Pieren](https://github.com/BasPieren)
+
+<!-- # Web Design @cmda-minor-web 1819
 //Werken met en voor echte mensen.
 
 
@@ -50,4 +106,4 @@ Daan Rongen gaat vertellen over onderzoek, ontwerp en ontwikkeling in het afstud
 #### Weekly Nerd
 
 #### Lezen
-- []()
+- []() -->
