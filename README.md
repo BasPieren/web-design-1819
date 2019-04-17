@@ -2,8 +2,7 @@
 
 This is my repo for the Web Design course.
 
-![Real Time Web Screenshot](https://i.imgur.com/t95Kias.png)
-> Learn HTML Together chat app
+![Web Design Screenshot](https://i.imgur.com/DjpseOO.png)
 
 ## Table of Contents 🗃
 * [To Do](#to-do-)
