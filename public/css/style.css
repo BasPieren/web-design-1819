@@ -29,10 +29,6 @@ main {
   border: 1px solid #000000;
 }
 
-h1 {
-  display: none;
-}
-
 header nav {
   text-align: center;
 }
@@ -48,6 +44,13 @@ ul li {
 }
 
 /* ---------- IDS ---------- */
+#wd-skip-nav-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap
+}
+
 #wd-tickect-sales {
   margin: 1em 0 0 0;
   padding: 1em;
@@ -56,30 +59,6 @@ ul li {
 
 #wd-tickect-sales h3{
   margin: 0.5em 0 0 0;
-}
-
-/* ---------- CLASSES ---------- */
-
-.wd-skip-nav-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  white-space: nowrap
-}
-
-.wd-skip-nav-ul {
-  position: relative;
-}
-
-.wd-skip-nav-li {
-  position: absolute;
-  left: -15em;
-  padding: 1em;
-  background-color: #ffffff;
-}
-
-.wd-skip-nav-li:focus {
-  left: 0;
 }
 
 #wd-book-flight-form {
@@ -105,6 +84,66 @@ ul li {
   margin: 2.5em 0 0 0;
   padding: 1em 2em;
   width: 200px;
+}
+
+#wd-more-from-klm {
+  margin: 1em 0 0 0;
+  padding: 1em;
+  border: 1px solid #000000;
+}
+
+#wd-more-from-klm h2{
+  margin: 0 0 0.5em 0;
+}
+
+#wd-more-from-klm article{
+  margin: 0 0 1em 0;
+  padding: 1em;
+  border: 1px solid #000000;
+}
+
+#wd-more-from-klm article:last-of-type{
+  margin: 0;
+}
+
+#wd-more-from-klm article p{
+  margin: 0.5em 0 1em 0;
+}
+
+#wd-more-journey {
+  margin: 1em 0 0 0;
+  padding: 1em;
+  border: 1px solid #000000;
+}
+
+#wd-more-journey h2{
+  margin: 0 0 0.5em 0;
+}
+
+/* ---------- CLASSES ---------- */
+
+.wd-hidden{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.wd-skip-nav-ul {
+  position: relative;
+}
+
+.wd-skip-nav-li {
+  position: absolute;
+  left: -15em;
+  padding: 1em;
+  background-color: #ffffff;
+}
+
+.wd-skip-nav-li:focus {
+  left: 0;
 }
 
 .wd-teaser-box {
@@ -145,38 +184,4 @@ ul li {
 
 .wd-sales-disclaimer {
   margin: 1em 0 0 0;
-}
-
-#wd-more-from-klm {
-  margin: 1em 0 0 0;
-  padding: 1em;
-  border: 1px solid #000000;
-}
-
-#wd-more-from-klm h2{
-  margin: 0 0 0.5em 0;
-}
-
-#wd-more-from-klm article{
-  margin: 0 0 1em 0;
-  padding: 1em;
-  border: 1px solid #000000;
-}
-
-#wd-more-from-klm article:last-of-type{
-  margin: 0;
-}
-
-#wd-more-from-klm article p{
-  margin: 0.5em 0 1em 0;
-}
-
-#wd-more-journey {
-  margin: 1em 0 0 0;
-  padding: 1em;
-  border: 1px solid #000000;
-}
-
-#wd-more-journey h2{
-  margin: 0 0 0.5em 0;
 }
