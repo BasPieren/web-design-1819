@@ -44,28 +44,4 @@
 
     formChoices.appendChild(p)
   }
-
-  // function copyFormData(e) {
-  //   let fromValue = document.getElementsByName('vanaf')[0].value,
-  //       toValue = document.getElementsByName('naar')[0].value,
-  //       leaveDateValue = document.getElementsByName('vertrek')[0].value,
-  //       returnDateValue = document.getElementsByName('terug')[0].value,
-  //       numberOfPeopleValue = document.getElementsByName('personen')[0].value,
-  //       travelClassValue = document.getElementsByName('class')[0].value,
-  //       formData = ['Je wilt vertrekken vanaf luchthaven: ' + fromValue,
-  //                   'Je wilt op vakantie naar: ' + toValue,
-  //                   'Je wilt vertrekken vanaf: ' + leaveDateValue,
-  //                   'Je wilt terugkomen op: ' + returnDateValue,
-  //                   'Het aantal personen zijn: ' + numberOfPeopleValue,
-  //                   'Je wilt reizen in de: ' + travelClassValue]
-  //
-  //   formData.forEach(e => {
-  //     const formChoices = document.getElementById('wd-form-choices'),
-  //           p = document.createElement('p')
-  //
-  //     p.textContent = e
-  //
-  //     formChoices.appendChild(p)
-  //   })
-  // }
 }())
