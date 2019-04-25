@@ -1,24 +1,19 @@
 /* ---------- FONTS ---------- */
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
-/* ---------- COLORS ---------- */
-
-
 /* ---------- GENERAL ---------- */
-
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  padding: 1em 12.5em;
+  padding: 1em;
   font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  margin: 0 0 3em 0;
+  margin: 0 0 1em 0;
   padding: 1em;
   border: 1px solid #000000;
 }
@@ -27,10 +22,6 @@ main {
   display: flex;
   padding: 1em;
   border: 1px solid #000000;
-}
-
-header nav {
-  text-align: center;
 }
 
 ul {
@@ -43,22 +34,16 @@ ul li {
   list-style: none;
 }
 
+audio {
+  display: none;
+}
+
 /* ---------- IDS ---------- */
 #wd-skip-nav-wrapper {
   position: absolute;
   top: 0;
   left: 0;
   white-space: nowrap
-}
-
-#wd-tickect-sales {
-  margin: 1em 0 0 0;
-  padding: 1em;
-  border: 1px solid #000000;
-}
-
-#wd-tickect-sales h3{
-  margin: 0.5em 0 0 0;
 }
 
 #wd-book-flight-form {
@@ -68,7 +53,7 @@ ul li {
   width: 50%;
 }
 
-#wd-book-flight-form > h2 {
+#wd-book-flight-form h2 {
   margin: 0 0 1.5em 0;
 }
 
@@ -80,48 +65,17 @@ ul li {
   margin-top: 0;
 }
 
+#wd-book-flight-form a {
+  margin: 2.5em 0 0 0;
+}
+
 #wd-book-flight-form button {
   margin: 2.5em 0 0 0;
   padding: 1em 2em;
   width: 200px;
 }
 
-#wd-more-from-klm {
-  margin: 1em 0 0 0;
-  padding: 1em;
-  border: 1px solid #000000;
-}
-
-#wd-more-from-klm h2{
-  margin: 0 0 0.5em 0;
-}
-
-#wd-more-from-klm article{
-  margin: 0 0 1em 0;
-  padding: 1em;
-  border: 1px solid #000000;
-}
-
-#wd-more-from-klm article:last-of-type{
-  margin: 0;
-}
-
-#wd-more-from-klm article p{
-  margin: 0.5em 0 1em 0;
-}
-
-#wd-more-journey {
-  margin: 1em 0 0 0;
-  padding: 1em;
-  border: 1px solid #000000;
-}
-
-#wd-more-journey h2{
-  margin: 0 0 0.5em 0;
-}
-
 /* ---------- CLASSES ---------- */
-
 .wd-hidden{
   position: absolute;
   left: -10000px;
@@ -144,44 +98,4 @@ ul li {
 
 .wd-skip-nav-li:focus {
   left: 0;
-}
-
-.wd-teaser-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 0 0 auto;
-  padding: 1em;
-  width: 25%;
-  border: 1px solid #000000;
-}
-
-.wd-teaser-box p {
-  margin: 0.5em 0 auto 0;
-}
-
-.wd-ticket-sales-top-10 {
-  margin: 1em 0;
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid #000000;
-}
-
-.wd-ticket-sales-top-10 ul {
-  display: block;
-  width: 50%;
-  box-sizing: border-box;
-}
-
-.wd-ticket-sales-top-10 ul:first-of-type {
-  padding: 0 1em 0 0;
-}
-
-.wd-ticket-sales-top-10 ul li span {
-  float: right;
-}
-
-.wd-sales-disclaimer {
-  margin: 1em 0 0 0;
 }
