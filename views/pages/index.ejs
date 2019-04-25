@@ -6,9 +6,6 @@
   <ul class="wd-skip-nav-ul">
     <li><a href="#wd-site-navigation" class="wd-skip-nav-li">Naar website navigatie</a></li>
     <li><a href="#wd-book-flight-form" class="wd-skip-nav-li">Naar boek je vlucht</a></li>
-    <li><a href="#wd-tickect-sales" class="wd-skip-nav-li">Naar ticket aanbiedingen</a></li>
-    <li><a href="#wd-more-from-klm" class="wd-skip-nav-li">Naar meer van KLM</a></li>
-    <li><a href="#wd-more-journey" class="wd-skip-nav-li">Naar haal meer uit uw reis</a></li>
   </ul>
 </nav>
 
@@ -29,17 +26,15 @@
   <form id="wd-book-flight-form" action="" method="post">
     <h2>Boek je vlucht</h2>
 
-    <label for="vanaf">Vanaf luchthaven</label>
-    <select name="vanaf">
-      <option>-- Kies je vertrekluchthaven --</option>
+    <label for="rtw-departure">Vanaf welke luchthaven wil je vertrekken?</label>
+    <select id="rtw-departure" name="vanaf">
       <option value="Amsterdam(Schiphol), Nederland">Amsterdam(Schiphol), Nederland</option>
       <option value="Eindhoven, Nederland">Eindhoven, Nederland</option>
       <option value="Rotterdam/Den Haag, Nederland">Rotterdam/Den Haag, Nederland</option>
     </select>
 
-    <label for="naar">Naar</label>
-    <select name="naar">
-      <option>-- Kies je bestemming --</option>
+    <label for="rtw-destination">Waar wil je naar toe op vakantie?</label>
+    <select id="rtw-destination" name="naar">
       <option value="Athene, Griekenland">Athene, Griekenland</option>
       <option value="Berlijn, Duitsland">Berlijn, Duitsland</option>
       <option value="Dublin, Ierland">Dublin, Ierland</option>
@@ -52,37 +47,34 @@
       <option value="Rome, Italië">Rome, Italië</option>
     </select>
 
-    <label for="vertrek">Vertrek datum</label>
-    <input type="date" name="vertrek">
+    <label for="rtw-departure-date">Wanneer wil je vertrekken?</label>
+    <input id="rtw-departure-date" type="date" name="vertrek">
 
-    <label for="terug">Terugkomst datum</label>
-    <input type="date" name="terug">
+    <label for="rtw-return-date">Wanneer wil je terugkomen?</label>
+    <input id="rtw-return-date" type="date" name="terug">
 
-    <label for="personen">Aantal personen</label>
-    <input type="text" name="personen" placeholder="Bijv. 1">
+    <label for="rtw-number-of-people">Met hoeveel personen reis je?</label>
+    <input id="rtw-number-of-people" type="text" name="personen" placeholder="Bijvoorbeeld 1">
 
-    <label for="class">Reisklasse</label>
-    <select name="class">
-      <option>-- Kies je reisklasse --</option>
+    <label for="rtw-travel-class">In welke reisklasse wil je reizen?</label>
+    <select id="rtw-travel-class" name="class">
       <option value="Economy Class">Economy Class</option>
       <option value="Business Class">Business Class</option>
     </select>
 
-    <div id="wd-form-choices" class="wd-hidden">
-      <h2>Dit zijn jou keuzes:</h2>
-    </div>
+    <a href="/choices">Controleer je keuzes</a>
 
-    <button id="wd-form-submit" type="submit" name="button">Zoek je vlucht</button>
+    <!-- <button id="wd-form-submit" type="submit" name="button">Controleer je keuzes</button> -->
   </form>
 
-  <div class="wd-teaser-box">
+  <!-- <div class="wd-teaser-box">
     <h3>KLM Flight Bundle</h3>
     <p>Koop vooraf een aantal vluchten voor een vaste prijs en vlieg pas wanneer het jou uitkomt. Zo kan je zo vaak mogelijk ontspannen bij je eigen vakantiehuis</p>
     <a href="#">Lees meer</a>
-  </div>
+  </div> -->
 </main>
 
-<section id="wd-tickect-sales">
+<!-- <section id="wd-tickect-sales">
   <h2>Ticket Aanbiedingen</h2>
 
   <h3>Top 10</h3>
@@ -141,6 +133,6 @@
     <li><a href="#">Vliegveldtransfer</a></li>
     <li><a href="#">Shop@KLM</a></li>
   </ul>
-</section>
+</section> -->
 
 <% include ../partials/footer %>
