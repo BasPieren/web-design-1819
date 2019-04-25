@@ -1,7 +1,8 @@
 function renderChoices() {
-  const div = document.getElementById('wd-form-choices')
+  const div = document.getElementById('wd-form-choices'),
+        pS = document.querySelector('p')
 
-  let formChoices = localStorage.getItem('formChoices'),
+  let formChoices = sessionStorage.getItem('formChoices'),
       formChoicesJSON = JSON.parse(formChoices)
 
   if (document.body.contains(div)) {
@@ -11,8 +12,9 @@ function renderChoices() {
       console.log(i)
 
       p.textContent = i
+      p.className = 'wd-form-choices-render'
 
-      div.appendChild(p)
+      div.insertBefore(p, pS)
     })
   }
 }
