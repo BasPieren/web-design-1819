@@ -75,6 +75,14 @@ audio {
   width: 200px;
 }
 
+#wd-form-choices h2 {
+  margin: 0 0 1.5em 0;
+}
+
+#wd-form-choices p:last-of-type {
+  margin: 2.5em 0 1em 0;
+}
+
 /* ---------- CLASSES ---------- */
 .wd-hidden{
   position: absolute;
@@ -98,4 +106,8 @@ audio {
 
 .wd-skip-nav-li:focus {
   left: 0;
+}
+
+.wd-form-choices-render {
+  line-height: 1.6;
 }
