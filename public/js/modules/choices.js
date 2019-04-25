@@ -17,7 +17,7 @@ function choicesLocalStorage() {
                                'Aantal personen: ' + numberOfPeopleValue,
                                'Reisklasse: ' + travelClassValue]
 
-      localStorage.setItem('formChoices', JSON.stringify(formElementsValue))
+      sessionStorage.setItem('formChoices', JSON.stringify(formElementsValue))
     })
   }
 }
