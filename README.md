@@ -2,7 +2,7 @@
 
 This is my repo for the Web Design course.
 
-![Web Design Screenshot](https://i.imgur.com/DjpseOO.png)
+![Prototype 2 Screenshot](https://i.imgur.com/Qcfl7UJ.png)
 
 ## Table of Contents 🗃
 * [To Do](#to-do-)
@@ -18,6 +18,7 @@ This is my repo for the Web Design course.
     * [User Test 1](#user-test-1)
   * [Week 3](#week-3)
     * [User Test 2](#user-test-2)
+  * [Design Principles](#design-principles)
 * [Sources](#sources-)
   * [Honourable Mentions](#honourable-mentions)
 * [Licence](#licence-)
@@ -28,7 +29,7 @@ This is a list of things I want to do in this project:
 - [ ] .
 
 ## Description 📝
-The goal for this course is to create a functional and pleasurable user experience for Larissa. In my case I wanted to tackle on of her biggest problems: booking a flight ticket. I wanted to improve the way she navigates through a form while also giving her the experience of anticipation that people have when they start preparing for a vacation.  
+The goal for this course is to create a functional and pleasurable user experience for Larissa. In my case I wanted to tackle one of her biggest problems: booking a flight ticket. I wanted to improve the way she navigates through a form while also giving her the experience of anticipation that people have when they start preparing for a vacation.  
 
 ## Installing 🔍
 To install this application enter the following into your terminal:
@@ -59,7 +60,7 @@ This are the things I have done in the first week.
 Larissa is blind. She uses a braille rule and a screenreader. Many of the common design patterns do not work for her because they are designed from a visual point of view.
 
 #### User Interview
-During the user interview in the first week we had the opertunity to ask some questions to Larissa. This was the most interesting information:
+During the user interview in the first week we had the opportunity to ask some questions to Larissa. This was the most interesting information:
 
   *  Larissa uses __JAWS__ as here screenreader. She has a braille display but almost never uses it. This is because she didn't learn braille from birth.
   * The most common design pattern for blind people she has found is the __Skip Navigation__ button. This allows here to skip directly to the main content.
@@ -96,10 +97,21 @@ This are the things I have done in the third week.
 #### User Test 2
 For the user test in the third week I stripped my prototype of all the things that I didn't need so that I only had to focus on the `<form>`. I added different sounds to each `<input>` field so that when one was in `.focus()` a sound would play to create an extra dimension. For example when you choose your destination you here the sounds of a beach.
 
+I also made the labels a bit more descriptive so that the form would feel more as a step by step process instead of being one "thing".
+
 When observing Larissa test other prototypes, I got some other interesting insights:
+
+* Sound can work really well when when it's supporting text. It can give an extra dimension that you would otherwise miss. What is important tho is to keep the text "readable" as in the sound must not be louder that the screenreader. But it is better to have sound too loud than too quiet.
 
 ![Prototype 2 Screenshot](https://i.imgur.com/Qcfl7UJ.png)
 > Prototype 2
+
+### (Exclusive) Design Principles
+Design principles push you to look beyond the visual aspect of design. They make you think outside the box. You need to think about what is truly the most important information and remove all the other noise that you don't need.
+
+You got to look at the situation that your user is and look how you can design for that situation and the problems they run into.
+
+They also help you to look beyond the obvious solutions and conventions. 
 
 ## Sources 📚
 This is a list of all the sources I used during this project:
