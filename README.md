@@ -111,7 +111,7 @@ Design principles push you to look beyond the visual aspect of design. They make
 
 You got to look at the situation that your user is and look how you can design for that situation and the problems they run into.
 
-They also help you to look beyond the obvious solutions and conventions. 
+They also help you to look beyond the obvious solutions and conventions.
 
 ## Sources 📚
 This is a list of all the sources I used during this project:
@@ -120,7 +120,7 @@ This is a list of all the sources I used during this project:
 
 ### Honourable Mentions
 
-  * None!
+  * Larissa
 
 ## Licence 🔓
 MIT © [Bas Pieren](https://github.com/BasPieren)
