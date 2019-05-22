@@ -13,7 +13,7 @@ This is my repo for the Web Design course.
   * [Feedback](#feedback)
   * [Iteration](#iteration)
   * [Testing](#testing)
-  * [Exclusive Desing](#exclusive-desing)
+  * [Exclusive Design](#exclusive-design)
     * [Study Situation](#study-situation)
     * [Ignore Conventions](#ignore-conventions)
     * [Prioritise Identity](#prioritise-identity)
@@ -110,25 +110,28 @@ to.addEventListener('blur', e => {
 ### Testing
 
 
-### Exclusive Desing
+### Exclusive Design
 These are the exclusive design principles I made use of.
 
 #### Study Situation
-When we were testing our products in the first couple of weeks it became clear that Larissa uses the tab key a lot to navigate through webpages.
+During the first couple of weeks Larissa told us that sometimes if she would lose here way in a website or if something unexpected would happen like a popup she would either have to navigate back to the start of the webpage or call in help from someone else.
+
+So it's important to make Larissa stay in control of the webpage by, for example, adding a __Skip to Content__ navigation.
 
 #### Ignore Conventions
-
+I think for Larissa and visually impaired people in general, it's important to actually follow conventions when it comes to writing semantic HTML. Writing semantic HTML is 90% of the work when you want to make a website accessible.
 
 #### Prioritise Identity
-
+When we were testing our products in the first couple of weeks it became clear that Larissa uses the tab key a lot to navigate through webpages. So when I was working on my resit I wanted to make sure she would not always have to navigate element for element using her screenreader. She is still able to reach and complete the form by only using the tab key.
 
 #### Add Nonsense
-
+I added nonsense by playing a sound when ever the users focusses on a `input` or `select` item. The sound represents the item the user is focuses like for example a beach when they choose their destination or a dog barking when choose if their are any pets coming along.
 
 ## Sources 📚
 This is a list of all the sources I used during this project:
 
   * [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/)
+  * [Exclusive Design](https://exclusive-design.vasilis.nl/)
 
 ### Honourable Mentions
 
