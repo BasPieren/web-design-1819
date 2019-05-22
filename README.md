@@ -108,7 +108,16 @@ to.addEventListener('blur', e => {
 ...gives the user an audio experience that they don't get from visuals.
 
 ### Testing
+During my fourth test, which I did with a classmate, a couple of feedback points came forward:
 
+* The `input type=""`for the number of people should be a number instead of text. That way Larissa would not have to type the numbers manually but can use the arrow keys.
+
+* There should be some closing word when finishing filling in the `form`.
+
+* I should close the prototype all the choices that are combined into a single story.   
+
+![Photo fourth test](https://i.imgur.com/eICxUwv.jpg)
+> Testing the resit prototype
 
 ### Exclusive Design
 These are the exclusive design principles I made use of.
