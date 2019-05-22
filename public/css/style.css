@@ -10,6 +10,7 @@
 body {
   padding: 1em;
   font-family: 'Open Sans', sans-serif;
+  background-color: #d2d2d2;
 }
 
 header {
@@ -20,8 +21,25 @@ header {
 
 main {
   display: flex;
+  flex-direction: column;
   padding: 1em;
+  background-color: #ffffff;
   border: 1px solid #000000;
+}
+
+h2 {
+  margin: 0 0 0.5em 0;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 0 0 1.5em 0;
+  font-weight: 600;
+}
+
+p {
+  margin: 0 0 1em 0;
+  font-weight: 300;
 }
 
 ul {
@@ -34,11 +52,34 @@ ul li {
   list-style: none;
 }
 
+label {
+  margin: 1em 0 0.5em 0;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+label:first-of-type {
+  margin-top: 0;
+}
+
+select + p, input + p {
+  margin-top: 2em;
+}
+
 audio {
   display: none;
 }
 
-/* ---------- IDS ---------- */
+.wd-hidden{
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ---------- NAV ---------- */
 #wd-skip-nav-wrapper {
   position: absolute;
   top: 0;
@@ -46,23 +87,27 @@ audio {
   white-space: nowrap
 }
 
+.wd-skip-nav-ul {
+  position: relative;
+}
+
+.wd-skip-nav-li {
+  position: absolute;
+  left: -100em;
+  padding: 1em;
+  background-color: #ffffff;
+}
+
+.wd-skip-nav-li:focus {
+  left: 0;
+}
+
+/* ---------- FORM ---------- */
 #wd-book-flight-form {
   position: relative;
   display: flex;
   flex-direction: column;
   width: 50%;
-}
-
-#wd-book-flight-form h2 {
-  margin: 0 0 1.5em 0;
-}
-
-#wd-book-flight-form label {
-  margin: 1em 0 0.5em 0;
-}
-
-#wd-book-flight-form label:first-of-type {
-  margin-top: 0;
 }
 
 #wd-book-flight-form a {
@@ -81,33 +126,4 @@ audio {
 
 #wd-form-choices p:last-of-type {
   margin: 2.5em 0 1em 0;
-}
-
-/* ---------- CLASSES ---------- */
-.wd-hidden{
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
-.wd-skip-nav-ul {
-  position: relative;
-}
-
-.wd-skip-nav-li {
-  position: absolute;
-  left: -15em;
-  padding: 1em;
-  background-color: #ffffff;
-}
-
-.wd-skip-nav-li:focus {
-  left: 0;
-}
-
-.wd-form-choices-render {
-  line-height: 1.6;
 }
