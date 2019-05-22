@@ -1,40 +1,28 @@
 <% include ../partials/header %>
 
-<h1 class="wd-hidden">Goedkope vliegtickets boeken en tickets vergelijken – KLM.com.</h1>
-
 <nav id="wd-skip-nav-wrapper">
   <ul class="wd-skip-nav-ul">
-    <li><a href="#wd-site-navigation" class="wd-skip-nav-li">Naar website navigatie</a></li>
-    <li><a href="#wd-book-flight-form" class="wd-skip-nav-li">Naar boek je vlucht</a></li>
+    <li><a href="#wd-site-explanation" class="wd-skip-nav-li">Naar uitleg voor visueel beperkte.</a></li>
+    <li><a href="#wd-book-flight-form" class="wd-skip-nav-li">Naar boek je vakantie vlucht.</a></li>
   </ul>
 </nav>
 
-<header>
-  <nav class="wd-main-navigation">
-    <ul id="wd-site-navigation">
-      <li><a href="/">Home</a></li>
-      <li><a href="#">Bereid uw reis voor</a></li>
-      <li><a href="#">Klantenservice</a></li>
-      <li><a href="#">Bestemmingen</a></li>
-      <li><a href="#">Fly Blue</a></li>
-      <li><a href="#">KLM Zakelijk</a></li>
-    </ul>
-  </nav>
-</header>
+<section class="wd-hidden">
+  <p id="wd-site-explanation">Heb je een visuele beperking? Navigeer dan element voor element door het formulier om ook het vakantie gevoel te krijgen.</p>
+
+  <a href="#wd-site-content">Naar boek je vakantie vlucht.</a>
+</section>
 
 <main id="wd-site-content">
-  <form id="wd-book-flight-form" action="" method="post">
-    <h2>Boek je vlucht</h2>
+  <h2>Boek je vakantie vlucht</h2>
+  <p class="wd-hidden">Het is weer die tijd van het jaar. Tijd om even lekker te ontspannen en te genieten van een wel verdiende vakantie. De vakantie voorpret begint hier!</p>
 
-    <label for="rtw-departure">Vanaf welke luchthaven wil je vertrekken?</label>
-    <select id="rtw-departure" name="vanaf">
-      <option value="Amsterdam(Schiphol), Nederland">Amsterdam(Schiphol), Nederland</option>
-      <option value="Eindhoven, Nederland">Eindhoven, Nederland</option>
-      <option value="Rotterdam/Den Haag, Nederland">Rotterdam/Den Haag, Nederland</option>
-    </select>
+  <form id="wd-book-flight-form" method="post">
 
-    <label for="rtw-destination">Waar wil je naar toe op vakantie?</label>
-    <select id="rtw-destination" name="naar">
+    <p class="wd-hidden">Als eerste het belangrijkste, waar wil je naar toe op vakantie? Een zonnig strand? Of misschien toch een city trip?</p>
+
+    <label for="wd-destination">Bestemming</label>
+    <select id="wd-destination" name="naar">
       <option value="Athene, Griekenland">Athene, Griekenland</option>
       <option value="Berlijn, Duitsland">Berlijn, Duitsland</option>
       <option value="Dublin, Ierland">Dublin, Ierland</option>
@@ -47,20 +35,48 @@
       <option value="Rome, Italië">Rome, Italië</option>
     </select>
 
-    <label for="rtw-departure-date">Wanneer wil je vertrekken?</label>
-    <input id="rtw-departure-date" type="date" name="vertrek">
+    <p class="wd-hidden">En vanaf welke luchthaven wil je de vakantie beginnen?</p>
 
-    <label for="rtw-return-date">Wanneer wil je terugkomen?</label>
-    <input id="rtw-return-date" type="date" name="terug">
+    <label for="wd-departure">Vertrek Luchthaven</label>
+    <select id="wd-departure" name="vanaf">
+      <option value="Amsterdam(Schiphol), Nederland">Amsterdam(Schiphol), Nederland</option>
+      <option value="Eindhoven, Nederland">Eindhoven, Nederland</option>
+      <option value="Rotterdam/Den Haag, Nederland">Rotterdam/Den Haag, Nederland</option>
+    </select>
 
-    <label for="rtw-number-of-people">Met hoeveel personen reis je?</label>
-    <input id="rtw-number-of-people" type="text" name="personen" placeholder="Bijvoorbeeld 1">
+    <p class="wd-hidden">Wanneer wil je op vakantie?</p>
 
-    <label for="rtw-travel-class">In welke reisklasse wil je reizen?</label>
-    <select id="rtw-travel-class" name="class">
+    <label for="wd-departure-date">Vertrek Datum</label>
+    <input id="wd-departure-date" type="date" name="vertrek">
+
+    <p class="wd-hidden">Wanneer wil je terug komen?</p>
+
+    <label for="wd-return-date">Terugkomst Datum</label>
+    <input id="wd-return-date" type="date" name="terug">
+
+    <p class="wd-hidden">Ga je lekker alleen of met meerdere personen op vakantie?</p>
+
+    <label for="wd-number-of-people">Aantal personen</label>
+    <input id="wd-number-of-people" type="text" name="personen" placeholder="Bijvoorbeeld 1">
+
+    <p class="wd-hidden">In welke reisklasse wil je reizen?</p>
+
+    <label for="wd-travel-class">Reisklasse</label>
+    <select id="wd-travel-class" name="class">
       <option value="Economy Class">Economy Class</option>
       <option value="Business Class">Business Class</option>
     </select>
+
+    <p class="wd-hidden">Gaan er huisdieren of een hulphond mee?</p>
+
+    <label for="wd-pets">Dieren</label>
+    <select id="wd-pets" name="pets">
+      <option value="Pet">Ja, er gaat een huisdier mee.</option>
+      <option value="Guide Dog">Ja, er gaat een hulphond mee.</option>
+      <option value="No Pets">Nee, er gaan geen dieren mee.</option>
+    </select>
+
+    <p class="wd-hidden">Dat was alles. Heb je al zin in je vakantie? Op de volgende pagina kun je alle vakantie voorstellen doornemen.</p>
 
     <a href="/choices">Controleer je keuzes</a>
 
