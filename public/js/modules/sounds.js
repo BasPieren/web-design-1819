@@ -6,14 +6,15 @@ function formSounds() {
         returnDate = document.getElementsByName('terug')[0],
         numberOfPeople = document.getElementsByName('personen')[0],
         travelClass = document.getElementsByName('class')[0],
-        formElements = [from, to, leaveDate, returnDate, numberOfPeople, travelClass]
+        pets = document.getElementsByName('pets')[0]
 
   const airportSound = new Audio('/sounds/Airport.wav'),
         beachSound = new Audio("/sounds/Beach.wav"),
         airplaneSound = new Audio("/sounds/Airplane.wav"),
         airplaneTakeOffSound = new Audio("/sounds/Airplane-take-off.wav"),
         airplaneLandingSound = new Audio("/sounds/Airplane-landing.wav"),
-        barSound = new Audio("/sounds/Bar.wav")
+        barSound = new Audio("/sounds/Bar.wav"),
+        dogBarkingSound = new Audio("/sounds/Dog-barking.wav")
 
   if (document.body.contains(form)) {
     from.addEventListener('focus', e => {
@@ -62,6 +63,14 @@ function formSounds() {
 
     travelClass.addEventListener('blur', e => {
       airplaneSound.pause()
+    })
+
+    pets.addEventListener('focus', e => {
+      dogBarkingSound.play()
+    })
+
+    pets.addEventListener('blur', e => {
+      dogBarkingSound.pause()
     })
   }
 }
