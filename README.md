@@ -2,7 +2,7 @@
 
 This is my repo for the Web Design course.
 
-![Prototype 2 Screenshot](https://i.imgur.com/Qcfl7UJ.png)
+![Prototype Screenshot](https://i.imgur.com/WBh3Lal.png)
 
 ## Table of Contents 🗃
 * [To Do](#to-do-)
@@ -114,7 +114,7 @@ to.addEventListener('blur', e => {
 These are the exclusive design principles I made use of.
 
 #### Study Situation
-When we were testing our products in the first couple of weeks it became clear that Larissa uses the tab key a lot to navigate through webpages. 
+When we were testing our products in the first couple of weeks it became clear that Larissa uses the tab key a lot to navigate through webpages.
 
 #### Ignore Conventions
 
