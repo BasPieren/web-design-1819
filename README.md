@@ -114,7 +114,7 @@ During my fourth test, which I did with a classmate, a couple of feedback points
 
 * There should be some closing word when finishing filling in the `form`.
 
-* I should close the prototype all the choices that are combined into a single story.   
+* I should close the prototype with all the choices that are combined into a single story.   
 
 ![Photo fourth test](https://i.imgur.com/eICxUwv.jpg)
 > Testing the resit prototype
