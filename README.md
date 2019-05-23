@@ -93,7 +93,7 @@ Then I started adding hidden `p` elements That would serve as kind of a friendly
 <p class="wd-hidden">Als eerste het belangrijkste, waar wil je naar toe op vakantie? Een zonnig strand? Of misschien toch een city trip?</p>
 ```
 
-This in combination with the sounds that play when a user focuses on a `input` or `select` element...
+This in combination with the sounds that play when a user focuses on a `input` or `select` element gives the user an audio experience that they don't get from visuals.
 
 ```js
 to.addEventListener('focus', e => {
@@ -105,7 +105,17 @@ to.addEventListener('blur', e => {
 })
 ```
 
-...gives the user an audio experience that they don't get from visuals.
+I also decided to add a bell sound to alert the user that they cloud use the arrow keys to navigate element per element to get the full audio experience.
+
+```js
+const links = document.getElementsByClassName('wd-play-bell')
+
+Array.from(links).forEach( i => {
+  i.addEventListener('click', () => {
+    bellSound.play()
+  })
+})
+```
 
 ### Testing
 During my fourth test, which I did with a classmate, a couple of feedback points came forward:
