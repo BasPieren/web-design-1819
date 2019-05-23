@@ -3,14 +3,14 @@
 <nav id="wd-skip-nav-wrapper">
   <ul class="wd-skip-nav-ul">
     <li><a href="#wd-site-explanation" class="wd-skip-nav-li">Naar uitleg voor visueel beperkte.</a></li>
-    <li><a href="#wd-book-flight-form" class="wd-skip-nav-li">Naar boek je vakantie vlucht.</a></li>
+    <li><a href="#wd-book-flight-form" class="wd-skip-nav-li wd-play-bell">Naar boek je vakantie vlucht.</a></li>
   </ul>
 </nav>
 
 <section class="wd-hidden">
-  <p id="wd-site-explanation">Heb je een visuele beperking? Navigeer dan element voor element door het formulier om ook het vakantie gevoel te krijgen.</p>
+  <p id="wd-site-explanation">Wanneer je een bel hoord navigeer dan element voor element door het formulier om ook het vakantie gevoel te krijgen. Anders kun je gewoon blijven tabben.</p>
 
-  <a href="#wd-site-content">Naar boek je vakantie vlucht.</a>
+  <a href="#wd-site-content" class="wd-play-bell">Naar boek je vakantie vlucht.</a>
 </section>
 
 <main id="wd-site-content">
@@ -35,7 +35,7 @@
       <option value="Rome, Italië">Rome, Italië</option>
     </select>
 
-    <p class="wd-hidden">En vanaf welke luchthaven wil je de vakantie beginnen?</p>
+    <p class="wd-hidden">En vanaf welke luchthaven wil je vertrekken naar je vakantie bestemming?</p>
 
     <label for="wd-departure">Vertrek Luchthaven</label>
     <select id="wd-departure" name="vanaf">
@@ -44,12 +44,12 @@
       <option value="Rotterdam/Den Haag, Nederland">Rotterdam/Den Haag, Nederland</option>
     </select>
 
-    <p class="wd-hidden">Wanneer wil je op vakantie?</p>
+    <p class="wd-hidden">Wanneer wil je de vakantie beginnen?</p>
 
     <label for="wd-departure-date">Vertrek Datum</label>
     <input id="wd-departure-date" type="date" name="vertrek">
 
-    <p class="wd-hidden">Wanneer wil je terug komen?</p>
+    <p class="wd-hidden">En wanneer moet je, helaas, weer terug komen?</p>
 
     <label for="wd-return-date">Terugkomst Datum</label>
     <input id="wd-return-date" type="date" name="terug">
@@ -71,9 +71,9 @@
 
     <label for="wd-pets">Dieren</label>
     <select id="wd-pets" name="pets">
-      <option value="Huisdier">Ja, er gaat een huisdier mee.</option>
-      <option value="Hulphond">Ja, er gaat een hulphond mee.</option>
-      <option value="Geen dieren">Nee, er gaan geen dieren mee.</option>
+      <option value="ja, er gaat een huisdier mee.">Ja, er gaat een huisdier mee.</option>
+      <option value="ja, er gaat een hulphond mee.">Ja, er gaat een hulphond mee.</option>
+      <option value="nee, er gaan geen dieren mee.">Nee, er gaan geen dieren mee.</option>
     </select>
 
     <p class="wd-hidden">Zo dat was alles. Heb je al zin in je vakantie? Op de volgende pagina kun je al je keuzes nog een keer doornemen.</p>

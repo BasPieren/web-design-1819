@@ -60,9 +60,9 @@ During the initial rating I got the following feedback on which I worked during 
 * I needed to take and extra look at the exclusive design principles.
 
 ### Iteration
-First I started off by choosing the concept I wanted to make an extra iteration on. I found the idea of using sound and speech, to give the user an extra dimension that they cant get by watching images, very interesting. Most of the time when you arrive on the website of an airline you can see all kind of visual triggers that can give you a real vacation feeling. When a visually impaired gets on a website they aren't able to see those images and are only able to book their vacation using a robotic form.
+First I started off by choosing the concept I wanted to make an extra iteration on. I found the idea of using sound and speech, to give the user an extra dimension that they cant get by watching images, very interesting. Most of the time when you arrive on the website of an airline you can see all kind of visual triggers that can give you a real vacation feeling. When a visually impaired person gets on a website they aren't able to see those images and are only able to book their vacation using a robotic form.
 
-My idea is to turn that robotic form into a pleased experience designed to give a visually impaired user that vacation feeling that they can't get from images by using speech and sound.
+My idea is to turn that robotic form into a pleasant experience designed to give a visually impaired user that vacation feeling that they can't get from watching visuals images by using speech and sound.
 
 I started off by removing all the elements my concept would not need like for example the navigation and saving the users answers. That left me with the following page structure:
 

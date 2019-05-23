@@ -7,7 +7,8 @@ function formSounds() {
         returnDate = document.getElementsByName('terug')[0],
         numberOfPeople = document.getElementsByName('personen')[0],
         travelClass = document.getElementsByName('class')[0],
-        pets = document.getElementsByName('pets')[0]
+        pets = document.getElementsByName('pets')[0],
+        links = document.getElementsByClassName('wd-play-bell')
 
   const airportSound = new Audio('/sounds/Airport.wav'),
         beachSound = new Audio("/sounds/Beach.wav"),
@@ -15,7 +16,14 @@ function formSounds() {
         airplaneTakeOffSound = new Audio("/sounds/Airplane-take-off.wav"),
         airplaneLandingSound = new Audio("/sounds/Airplane-landing.wav"),
         barSound = new Audio("/sounds/Bar.wav"),
-        dogBarkingSound = new Audio("/sounds/Dog-barking.wav")
+        dogBarkingSound = new Audio("/sounds/Dog-barking.wav"),
+        bellSound = new Audio("/sounds/Bell.wav")
+
+  Array.from(links).forEach( i => {
+    i.addEventListener('click', () => {
+      bellSound.play()
+    })
+  })
 
   if (document.body.contains(form)) {
     from.addEventListener('focus', e => {

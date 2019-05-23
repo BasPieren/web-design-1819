@@ -11,7 +11,7 @@ function choicesLocalStorage() {
           numberOfPeopleValue = document.getElementsByName('personen')[0].value,
           travelClassValue = document.getElementsByName('class')[0].value,
           petsValue = document.getElementsByName('pets')[0].value,
-          formElementsValue = 'Je gaat op vakantie naar ' + toValue + ', leuk!' + ' Je vertrekt vanaf luchthaven ' + fromValue + ' op ' + leaveDateValue + ' en komt terug op '+ returnDateValue + '.' + ' Je gaat op vakantie met ' + numberOfPeopleValue + ' mensen en reist in de ' + travelClassValue + '.' + ' En gaan er gaat' + petsValue + 'mee?' 
+          formElementsValue = 'Je gaat op vakantie naar ' + toValue + ', leuk!' + ' Je vertrekt vanaf luchthaven ' + fromValue + ' op ' + leaveDateValue + ' en komt terug op '+ returnDateValue + '.' + ' Je gaat op vakantie met ' + numberOfPeopleValue + ' mensen en reist in de ' + travelClassValue + '.' + ' En ' + petsValue 
 
       sessionStorage.setItem('formChoices', JSON.stringify(formElementsValue))
     })
