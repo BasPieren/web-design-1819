@@ -1,5 +1,6 @@
 function formSounds() {
   const form = document.getElementById('wd-book-flight-form'),
+        choicesDiv = document.getElementById('wd-form-choices'),
         from = document.getElementsByName('vanaf')[0],
         to = document.getElementsByName('naar')[0],
         leaveDate = document.getElementsByName('vertrek')[0],
@@ -72,6 +73,10 @@ function formSounds() {
     pets.addEventListener('blur', e => {
       dogBarkingSound.pause()
     })
+  }
+
+  if (document.body.contains(choicesDiv)) {
+    beachSound.play()
   }
 }
 
