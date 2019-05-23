@@ -26,7 +26,9 @@ This is my repo for the Web Design course.
 ## To Do 📌
 This is a list of things I want to do in this project:
 
-- [ ] .
+- [X] Write a new user scenario.
+- [X] Work out only one concept.
+- [X] Take an extra look at the exclusive design principles
 
 ## Description 📝
 The goal for the resit is to improve the concept of adding an extra dimension for Larissa when she is filling in the flight ticket form. I want to give her that vacation feeling trough speech and sound that she cant get from watching visuals and images.  
