@@ -28,7 +28,7 @@ This is a list of things I want to do in this project:
 - [ ] .
 
 ## Description 📝
-The goal for this course is to create a functional and pleasurable user experience for Larissa. In my case I wanted to tackle one of her biggest problems: booking a flight ticket. I wanted to improve the way she navigates through a form while also giving her the experience of anticipation that people have when they start preparing for a vacation.  
+The goal for the resit is to improve the concept of adding an extra dimension for Larissa when she is filling in the flight ticket form. I want to give her that vacation feeling trough speech and sound that she cant get from watching visuals and images.  
 
 ## Installing 🔍
 To install this application enter the following into your terminal:
