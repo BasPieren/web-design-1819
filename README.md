@@ -68,11 +68,11 @@ During the initial rating I got the following feedback on which I worked during 
 > "Larissa zit thuis achter haar laptop en wil een vakantie gaan boeken. Ze heeft een drukke periode achter de rug en wil even helemaal ontspannen. Ze navigeert naar de website van en vliegtuig maatschapij en begint met het invullen van het bookings formulier."
 
 ### Iteration
-First I started off by choosing the concept I wanted to make an extra iteration on. I found the idea of using sound and speech, to give the user an extra dimension that they cant get by watching images, very interesting. Most of the time when you arrive on the website of an airline you can see all kind of visual triggers that can give you a real vacation feeling. When a visually impaired person gets on a website they aren't able to see those images and are only able to book their vacation using a robotic form.
+First I started off by choosing the concept I wanted to make an extra iteration on. I found the idea of using sound and speech, to give the user an extra dimension that they can't get by watching visuals or images, very interesting. Most of the time when you arrive on the website of an airline you can see all kind of visual triggers that can give you a real vacation feeling. When a visually impaired person gets on a website they aren't able to see those images and are only able to book their vacation using a robotic form.
 
 My idea is to turn that robotic form into a pleasant experience designed to give a visually impaired user that vacation feeling that they can't get from watching visuals images by using speech and sound.
 
-I started off by removing all the elements my concept would not need like for example the navigation and saving the users answers. That left me with the following page structure:
+I started off by removing all the elements my concept would not need so I could focus solely on the booking form. That left me with the following page layout:
 
 Homepage (Old)                                    |  Homepage (New)
 :------------------------------------------------:|:-------------------------:
@@ -89,7 +89,7 @@ After that I added an `section` to would serve as an explanation on how to user 
 </nav>
 
 <section class="wd-hidden">
-  <p id="wd-site-explanation">Heb je een visuele beperking? Navigeer dan element voor element door het formulier om ook het vakantie gevoel te krijgen.</p>
+  <p id="wd-site-explanation">Wanneer je een bel hoord navigeer dan element voor element door de pagina om gebruik te maken van de volledige audio ervaring. Anders kun je gewoon blijven tabben.</p>
 
   <a href="#wd-site-content">Naar boek je vakantie vlucht.</a>
 </section>
@@ -101,7 +101,7 @@ Then I started adding hidden `p` elements That would serve as kind of a friendly
 <p class="wd-hidden">Als eerste het belangrijkste, waar wil je naar toe op vakantie? Een zonnig strand? Of misschien toch een city trip?</p>
 ```
 
-This in combination with the sounds that play when a user focuses on a `input` or `select` element gives the user an audio experience that they don't get from visuals.
+This in combination with the sounds that plays when a user focuses on a `input` or `select` element gives the user an audio experience that they don't get from visuals and images.
 
 ```js
 to.addEventListener('focus', e => {
@@ -113,7 +113,7 @@ to.addEventListener('blur', e => {
 })
 ```
 
-I also decided to add a bell sound to alert the user that they cloud use the arrow keys to navigate element per element to get the full audio experience.
+I also decided to add a bell sound to alert the user that they need to use the arrow keys and navigate element per element to get the full audio experience.
 
 ```js
 const links = document.getElementsByClassName('wd-play-bell')
@@ -143,16 +143,16 @@ These are the exclusive design principles I made use of.
 #### Study Situation
 During the first couple of weeks Larissa told us that sometimes if she would lose here way in a website or if something unexpected would happen like a popup she would either have to navigate back to the start of the webpage or call in help from someone else.
 
-So it's important to make Larissa stay in control of the webpage by, for example, adding a __Skip to Content__ navigation or by adding a sound when she needs to start navigating using the arrow keys.
+So I wanted to make sure Larissa stays in control of the webpage and knows what is expected of her by, for example, adding a __Skip to Content__ navigation or by adding a sound when she needs to start navigating using the arrow keys.
 
 #### Ignore Conventions
 I think for Larissa and visually impaired people in general, it's important to actually follow conventions when it comes to writing semantic HTML. Writing semantic HTML is 90% of the work when you want to make a website accessible.
 
 #### Prioritise Identity
-When we were testing our products in the first couple of weeks it became clear that Larissa uses the tab key a lot to navigate through webpages. So when I was working on my resit I wanted to make sure she would not always have to navigate element for element using her screenreader. She is still able to reach and complete the form by only using the tab key.
+When we were testing our products in the first couple of weeks it became clear that Larissa uses the tab key a lot to navigate through webpages. So when I was working on my resit I wanted to make sure she would not always have to navigate element for element using her screenreader. She is still able to reach and complete the form by only using the tab key by using a correct navigation structure and form setup.
 
 #### Add Nonsense
-I added nonsense by playing a sound when ever the users focusses on a `input` or `select` item. The sound represents the item the user is focussing like for example a beach when they choose their destination or a dog barking when choose if there are any pets coming along.
+I added nonsense by playing a sound when ever the users focusses on a `input` or `select` item. The sound represents the item the user is focussing on like for example a beach when they choose their destination or a dog barking when choosing if there are any pets coming along.
 
 ## Sources 📚
 This is a list of all the sources I used during this project:
