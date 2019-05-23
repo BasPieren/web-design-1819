@@ -63,7 +63,7 @@ During the initial rating I got the following feedback on which I worked during 
 * I needed to take and extra look at the exclusive design principles.
 
 ### User Scenario
-> "Larissa zit thuis achter haar laptop en wil een vakantie gaan boeken. Ze heeft een drukke periode achter de rug en wil even helemaal ontspannen. Ze navigeert naar de website van en vliegtuig maatschapij en begint met het invullen van haar voorkeuren."
+> "Larissa zit thuis achter haar laptop en wil een vakantie gaan boeken. Ze heeft een drukke periode achter de rug en wil even helemaal ontspannen. Ze navigeert naar de website van en vliegtuig maatschapij en begint met het invullen van het bookings formulier."
 
 ### Iteration
 First I started off by choosing the concept I wanted to make an extra iteration on. I found the idea of using sound and speech, to give the user an extra dimension that they cant get by watching images, very interesting. Most of the time when you arrive on the website of an airline you can see all kind of visual triggers that can give you a real vacation feeling. When a visually impaired person gets on a website they aren't able to see those images and are only able to book their vacation using a robotic form.
