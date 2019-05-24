@@ -67,7 +67,7 @@ During the initial rating I got the following feedback which I worked on during 
 ### User Scenario
 This is my new user scenario:
 
-> "Larissa zit thuis achter haar laptop en wil een vakantie gaan boeken. Ze heeft een drukke periode achter de rug en wil even helemaal ontspannen. Ze navigeert naar de website van en vliegtuig maatschapij en begint met het invullen van het bookings formulier."
+> "Larissa zit thuis achter haar laptop en wil een vakantie gaan boeken. Ze heeft een drukke periode achter de rug en wil even helemaal ontspannen. Ze navigeert naar de website van een vliegtuig maatschapij en begint met het invullen van het bookings formulier."
 
 ### Iteration
 First I started off by choosing the concept I wanted to make an extra iteration on. I found the idea of using sound and speech, to give the user an extra dimension that they can't get by watching visuals or images, very interesting. Most of the time when you arrive on the website of an airline you can see all kind of visual triggers that can give you a real vacation feeling. When a visually impaired person gets on a website they aren't able to see those images and are only able to book their vacation through a robotic voice.
@@ -132,9 +132,9 @@ During my fourth test, which I did with a classmate, a couple of feedback points
 
 * The `input type=""` for the number of people should be a number instead of text. This way Larissa would not have to type the numbers manually but can use the arrow keys to choose the number of people.
 
-* There should be some closing words when finishing filling in the booking `form`.
+* There should be some closing words when the user is finished filling in the booking `form` so that the `form` doesn't end abruptly.
 
-* I should close the prototype with all the choices that and combine them into a single story that acts as an overview and as a way to describe the vacation.   
+* I should close the prototype with all the choices that the user made and combine them into a single story that acts as an overview and as a way to describe the vacation to the user.   
 
 ![Photo fourth test](https://i.imgur.com/eICxUwv.jpg)
 > Testing the resit prototype
@@ -155,6 +155,8 @@ When we were testing our products in the first couple of weeks it became clear t
 
 #### Add Nonsense
 I added nonsense by playing a sound when ever the users focusses on a `input` or `select` item. The sound represents the item the user is focussing on like for example a beach when they choose their destination or a dog barking when choosing if there are any pets coming along.
+
+I also added a sound whenever the user reaches a `section` that they could navigate using the arrow keys the get the better experience.
 
 ## Sources 📚
 This is a list of all the sources I used during this project:
